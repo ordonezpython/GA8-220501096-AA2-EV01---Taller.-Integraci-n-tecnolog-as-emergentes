@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Facturacion python</string>
+    <string name="welcome_text">BIENVENIDO</string>
+    <string name="user_hint">USUARIO</string>
+    <string name="password_hint">CONTRASEÑA</string>
+    <string name="email_hint">CORREO</string>
+    <string name="forgot_password">Olvidaste tu contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="create_account">¿Aún no tienes cuenta? Crea tu cuenta</string>
+
+    <!-- Textos para la segunda interfaz -->
+    <string name="register_title">REGISTRO DE USUARIO</string>
+    <string name="name_hint">Nombre</string>
+    <string name="lastname_hint">Apellidos</string>
+    <string name="id_hint">Cédula</string>
+    <string name="birthdate_hint">Fecha de Nacimiento</string>
+    <string name="email_hint2">Correo</string>
+    <string name="register_button">REGISTRAR</string>
+</resources>

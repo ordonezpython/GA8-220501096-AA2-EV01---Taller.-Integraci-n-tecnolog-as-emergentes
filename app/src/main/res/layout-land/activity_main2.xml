@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22A1DB"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="26dp"
+        android:text="REGISTRO DE USUARIO"
+        android:textColor="#42178E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="286dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Apellidos"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="282dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Fecha de Nacimiento"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="286dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="285dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="284dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Cedula"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        tools:layout_editor_absoluteX="61dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>
