@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.facturacionpython">
 
     <application
         android:allowBackup="true"
@@ -11,19 +12,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FacturacionPython">
-
+        <activity
+            android:name=".FacturaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" /> <!-- Pantalla de destino: MainActivity (usa activity_main.xml) -->
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-
+            android:exported="false" /> <!-- Pantalla inicial: MainActivity2 (usa activity_main2.xml) -->
         <activity
             android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
+
+                <!-- Esta es la actividad que se abre al iniciar la app -->
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
+
 </manifest>

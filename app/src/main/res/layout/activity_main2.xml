@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -8,6 +9,7 @@
     android:background="#22A1DB"
     tools:context=".MainActivity2">
 
+    <!-- Título -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -20,6 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5" />
 
+    <!-- Nombre -->
     <EditText
         android:id="@+id/editTextText3"
         android:layout_width="0dp"
@@ -32,6 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Apellido -->
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="0dp"
@@ -44,6 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Documento -->
     <EditText
         android:id="@+id/editTextText5"
         android:layout_width="0dp"
@@ -56,6 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Fecha de nacimiento -->
     <EditText
         android:id="@+id/editTextText6"
         android:layout_width="0dp"
@@ -68,6 +74,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Correo electrónico -->
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="0dp"
@@ -80,6 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Botón de registro -->
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
